@@ -1,0 +1,121 @@
+body{
+	font:100 1em georgia,serif;
+}
+
+fieldset{
+	margin:10px;
+}
+
+label{
+	display:inline-block;
+	width:320px;
+	line-height:25px;
+	text-align:right;
+	padding:5px 10px;
+	position:relative;
+}
+
+input{
+	margin-left:10px;
+	width:150px;
+}
+
+table{
+	width:100%;
+	text-align:center;
+	color:#333
+}
+tr:nth-child(even){
+	background-color:#eee
+}
+
+textarea{
+	margin:10px;
+	width:97%;
+	min-height:100px
+}
+.right{
+	float:right
+}
+.nodisplay{
+	display:none
+}
+
+.widelabel{
+	width:660px
+}
+.wideinput{
+	width:490px
+}
+
+.largelabel{
+	width:1005px
+}
+.largeinput{
+	width:835px
+}
+
+.tab{
+	text-indent:120px;
+	font-weight:600;
+}
+
+
+.multi{
+	position:relative;
+	left:-450px;
+	margin-left:50%;
+	width:900px;
+}
+
+.multi label{
+	display:inline;
+	width:360px;
+	font-size:0.8em;
+	line-height:20px;
+	text-align:left;
+	padding:2px;
+}
+
+.multi label input{
+	width:18px;
+}
+
+.questionholder{
+	width:382px;
+	display:inline-block;
+}
+
+.question{
+	float:left;
+	display:list-item;
+	height:18px;
+	width:18px;
+	list-style-image: url('question_mark_off.png');
+	list-style-position:inside;
+	position:relative;
+
+/*	height:18px;
+	width:18px;
+/*	background:url('question_mark_off.png') 0px 0px no-repeat transparent;
+	display:inline-block;
+	position:relative;
+	top:3px;
+	left:8px;*/
+}
+	.question input{
+		display:none;
+	}
+	.question:hover{
+		list-style-image: url('question_mark_on.png');
+	}
+.qticked{
+	list-style-image: url('question_mark_on.png');
+}
+
+
+#q6{
+background-color: #DDD;
+padding: 15px;
+margin-bottom: 10px;
+}

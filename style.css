@@ -1,0 +1,315 @@
+/* ------------------------------- Geral ------------------------------- */
+.button:hover, .button:focus{
+	background-color: Teal;
+
+	-webkit-box-shadow: 0 0 4px LightCyan;
+	-moz-box-shadow: 0 0 4px LightCyan;
+	box-shadow: 0 0 4px LightCyan;
+}
+
+/* -------------------------- Lista de Teses --------------------------- */
+body {
+	font: 100 1em verdana,serif;
+}
+
+h2 {
+	color: DarkCyan;
+	margin: 0;
+}
+
+a:link {
+	text-decoration: none;
+	/*color: DarkSlateGray;*/
+}
+
+a:visited {
+	text-decoration: none;
+	/*color: DarkSlateGray;*/
+}
+
+a:hover {
+	text-decoration: none;
+	/*color: DarkSlateGray;*/
+}
+
+table {
+	width:100%;
+	text-align:center;
+	color:#333;
+	border: 1px solid Cyan;
+	border-radius: 10px;
+	-moz-border-radius: 10px
+}
+
+table tr:hover {
+	background-color: Cyan;
+}
+
+/* --------------------------- Form de Busca --------------------------- */
+fieldset {
+	margin: 10px;
+	border: 1px solid Cyan;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+label {
+	display: inline-block;
+	width: 320px;
+	line-height: 25px;
+	text-align: right;
+	padding: 5px 10px;
+	position: relative;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid Cyan;
+
+  /* Applying CSS3 gradient */
+  background: -moz-linear-gradient(center top , #FFFFFF,  LightCyan 1px,
+  						#FFFFFF 20px);
+  background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF),
+  						color-stop(5%, LightCyan) to(#FFFFFF));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB',
+  				endColorstr='#FFFFFF');
+
+  /* Applying CSS 3radius */
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+
+  /* Applying CSS3 box shadow */
+  -moz-box-shadow: 0 0 4px LightCyan;
+  -webkit-box-shadow: 0 0 4px LightCyan;
+  box-shadow: 0 0 4px LightCyan;
+}
+
+input[type="text"]:focus {
+  box-shadow:0 0 5px DarkCyan;
+}
+
+input[type="password"] {
+  padding: 5px;
+  border: 1px solid Cyan;
+
+  /* Applying CSS3 gradient */
+  background: -moz-linear-gradient(center top , #FFFFFF,  LightCyan 1px,
+  						#FFFFFF 20px);
+  background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF),
+  						color-stop(5%, LightCyan) to(#FFFFFF));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB',
+  				endColorstr='#FFFFFF');
+
+  /* Applying CSS 3radius */
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+
+  /* Applying CSS3 box shadow */
+  -moz-box-shadow: 0 0 4px LightCyan;
+  -webkit-box-shadow: 0 0 4px LightCyan;
+  box-shadow: 0 0 4px LightCyan;
+}
+
+input[type="password"]:focus {
+  box-shadow:0 0 5px DarkCyan;
+}
+
+select {
+	border-color: Cyan;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	/* Applying CSS3 box shadow */
+  -moz-box-shadow: 0 0 4px LightCyan;
+  -webkit-box-shadow: 0 0 4px LightCyan;
+  box-shadow: 0 0 4px LightCyan;
+}
+
+textarea {
+	border-color: Cyan;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+
+	/* Applying CSS3 box shadow */
+  -moz-box-shadow: 0 0 4px LightCyan;
+  -webkit-box-shadow: 0 0 4px LightCyan;
+  box-shadow: 0 0 4px LightCyan;
+}
+
+.button {
+	cursor:pointer;
+	padding:3px 20px;
+	margin-left: 10px;
+	background: DarkCyan;
+	float: left;
+
+	border:1px solid LightCyan;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0 0 8px LightCyan;
+	-moz-box-shadow: 0 0 8px LightCyan;
+	box-shadow: 0 0 8px LightCyan;
+
+	color: LightCyan;
+	font-size: 1.1em;
+}
+
+#numero_teses{
+	color: DarkCyan;
+	float: right;
+}
+
+tr:nth-child(even){
+	background-color:#eee
+}
+
+textarea{
+	margin:10px;
+	width:97%;
+	min-height:100px
+}
+.right{
+	float:right
+}
+.nodisplay{
+	display:none
+}
+
+.widelabel{
+	width:660px
+}
+.wideinput{
+	width:490px
+}
+
+.largelabel{
+	width:1005px
+}
+.largeinput{
+	width:835px
+}
+
+.tab{
+	text-indent:120px;
+	font-weight:600;
+}
+
+.multi{
+	position:relative;
+	left:-450px;
+	margin-left:50%;
+	width:900px;
+}
+
+.multi label{
+	display:inline;
+	width:360px;
+	font-size:0.8em;
+	line-height:20px;
+	text-align:left;
+	padding:2px;
+}
+
+.multi label input{
+	width:18px;
+}
+
+.questionholder{
+	width:382px;
+	display:inline-block;
+}
+
+.question{
+	float:left;
+	display:list-item;
+	height:18px;
+	width:18px;
+	list-style-image: url('question_mark_off.png');
+	list-style-position:inside;
+	position:relative;
+
+/*	height:18px;
+	width:18px;
+/*	background:url('question_mark_off.png') 0px 0px no-repeat transparent;
+	display:inline-block;
+	position:relative;
+	top:3px;
+	left:8px;*/
+}
+	.question input{
+		display:none;
+	}
+	.question:hover{
+		list-style-image: url('question_mark_on.png');
+	}
+.qticked{
+	list-style-image: url('question_mark_on.png');
+}
+
+#q6{
+background-color: #DDD;
+padding: 15px;
+margin-bottom: 10px;
+}
+
+.autocomplete{
+	background-color:#fff;
+	border:solid 1px #000;
+	padding:3px;
+}
+.autocomplete div:hover{
+	background-color:#ddd;
+}
+
+.ui-autocomplete-loading {
+  background: white url('./ajax/css/ui-anim_basic_16x16.gif')
+  						right center no-repeat;
+}
+
+/* -------------------------- Pagina de Login -------------------------- */
+body#login {
+	font: 100 1em verdana,serif;
+	text-align: center;
+	margin-top: 20px;
+}
+
+fieldset#login {
+	width: 8%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0;
+  text-align: center;
+  color: DarkCyan;
+	border: 1px solid Cyan;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.loginfields {
+	width: 230px;
+	float: left;
+}
+
+.loginbutton {
+	cursor: pointer;
+	padding: 3px 20px;
+	margin-right: 11px;
+	background: DarkCyan;
+	float: right;
+
+	border:1px solid LightCyan;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+	-webkit-box-shadow: 0 0 8px LightCyan;
+	-moz-box-shadow: 0 0 8px LightCyan;
+	box-shadow: 0 0 8px LightCyan;
+
+	color: LightCyan;
+	font-size: 1.1em;
+}

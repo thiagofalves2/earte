@@ -1,0 +1,47 @@
+TRACE START [2014-02-23 14:27:19]
+    2.4984    3548824     -> DBFactory::getConnection() D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:965
+    2.4985    3549192       -> is_resource(resource(1032) of type (Unknown)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:15
+                             >=> FALSE
+    2.4987    3549192       -> mysql_connect('localhost', 'root', '') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:16
+                             >=> resource(1035) of type (mysql link)
+    2.5004    3556040       -> mysql_select_db('earte', resource(1035) of type (mysql link)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:22
+                             >=> TRUE
+    2.5010    3556128       -> mysql_query('SET NAMES \'utf8\'') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:24
+                             >=> TRUE
+    2.5015    3556144       -> mysql_query('SET character_set_connection=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:25
+                             >=> TRUE
+    2.5018    3556136       -> mysql_query('SET character_set_client=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:26
+                             >=> TRUE
+    2.5021    3556136       -> mysql_query('SET character_set_results=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:27
+                             >=> TRUE
+                           >=> resource(1035) of type (mysql link)
+    2.5024    3555808     -> mysql_query('SET NAMES \'utf8\'') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:966
+                           >=> TRUE
+    2.5027    3555824     -> mysql_query('SET character_set_connection=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:967
+                           >=> TRUE
+    2.5029    3555816     -> mysql_query('SET character_set_client=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:968
+                           >=> TRUE
+    2.5032    3555816     -> mysql_query('SET character_set_results=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:969
+                           >=> TRUE
+    2.5035    3555856     -> mysql_query('SELECT tema_ambiental FROM tema_ambiental_keys WHERE ficha = 1580') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:971
+                           >=> resource(1036) of type (mysql result)
+    2.5042    3549088     -> mysql_num_rows(resource(1036) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:972
+                           >=> 1
+    2.5043    3549088     -> mysql_fetch_assoc(resource(1036) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:974
+                           >=> array ('tema_ambiental' => '155')
+    2.5044    3549520     -> mysql_query('SELECT tema_ambiental FROM tema_ambiental WHERE id = 155') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:975
+                           >=> resource(1037) of type (mysql result)
+    2.5050    3542656     -> mysql_num_rows(resource(1037) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:976
+                           >=> 1
+    2.5051    3542704     -> mysql_result(resource(1037) of type (mysql result), 0) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:977
+                           >=> 'recursos naturais'
+    2.5052    3542704     -> mysql_fetch_assoc(resource(1036) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:974
+                           >=> FALSE
+    2.5053    3542400     -> DBFactory::closeConnection() D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:982
+    2.5054    3542448       -> mysql_close(resource(1035) of type (mysql link)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:54
+                             >=> TRUE
+                           >=> NULL
+    2.5056    3542216     -> xdebug_stop_trace() D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:983
+    2.5058 zu
+TRACE END   [2014-02-23 14:27:19]
+

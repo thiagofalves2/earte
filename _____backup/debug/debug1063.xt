@@ -1,0 +1,55 @@
+TRACE START [2014-02-23 14:27:19]
+    2.2346    3542192     -> DBFactory::getConnection() D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:965
+    2.2347    3542560       -> is_resource(resource(899) of type (Unknown)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:15
+                             >=> FALSE
+    2.2349    3542560       -> mysql_connect('localhost', 'root', '') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:16
+                             >=> resource(902) of type (mysql link)
+    2.2367    3549408       -> mysql_select_db('earte', resource(902) of type (mysql link)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:22
+                             >=> TRUE
+    2.2373    3549496       -> mysql_query('SET NAMES \'utf8\'') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:24
+                             >=> TRUE
+    2.2378    3549512       -> mysql_query('SET character_set_connection=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:25
+                             >=> TRUE
+    2.2381    3549504       -> mysql_query('SET character_set_client=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:26
+                             >=> TRUE
+    2.2384    3549504       -> mysql_query('SET character_set_results=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:27
+                             >=> TRUE
+                           >=> resource(902) of type (mysql link)
+    2.2387    3549176     -> mysql_query('SET NAMES \'utf8\'') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:966
+                           >=> TRUE
+    2.2391    3549192     -> mysql_query('SET character_set_connection=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:967
+                           >=> TRUE
+    2.2394    3549184     -> mysql_query('SET character_set_client=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:968
+                           >=> TRUE
+    2.2398    3549184     -> mysql_query('SET character_set_results=utf8') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:969
+                           >=> TRUE
+    2.2401    3549224     -> mysql_query('SELECT tema_ambiental FROM tema_ambiental_keys WHERE ficha = 1063') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:971
+                           >=> resource(903) of type (mysql result)
+    2.2409    3549152     -> mysql_num_rows(resource(903) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:972
+                           >=> 2
+    2.2411    3549152     -> mysql_fetch_assoc(resource(903) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:974
+                           >=> array ('tema_ambiental' => '1576')
+    2.2413    3549584     -> mysql_query('SELECT tema_ambiental FROM tema_ambiental WHERE id = 1576') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:975
+                           >=> resource(904) of type (mysql result)
+    2.2421    3542704     -> mysql_num_rows(resource(904) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:976
+                           >=> 1
+    2.2422    3542752     -> mysql_result(resource(904) of type (mysql result), 0) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:977
+                           >=> 'Parques Florestais'
+    2.2423    3542752     -> mysql_fetch_assoc(resource(903) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:974
+                           >=> array ('tema_ambiental' => '155')
+    2.2425    3542928     -> mysql_query('SELECT tema_ambiental FROM tema_ambiental WHERE id = 155') D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:975
+                           >=> resource(905) of type (mysql result)
+    2.2431    3542752     -> mysql_num_rows(resource(905) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:976
+                           >=> 1
+    2.2433    3542800     -> mysql_result(resource(905) of type (mysql result), 0) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:977
+                           >=> 'recursos naturais'
+    2.2434    3542800     -> mysql_fetch_assoc(resource(903) of type (mysql result)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:974
+                           >=> FALSE
+    2.2435    3542496     -> DBFactory::closeConnection() D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:982
+    2.2436    3542544       -> mysql_close(resource(902) of type (mysql link)) D:\wamp\www\Earte_2014\sistemaEarte\sistema\restrito\dao\DBFactory.class.php:54
+                             >=> TRUE
+                           >=> NULL
+    2.2438    3542312     -> xdebug_stop_trace() D:\wamp\www\Earte_2014\sistemaEarte\sistema\listar.php:983
+    2.2439 zu
+TRACE END   [2014-02-23 14:27:19]
+

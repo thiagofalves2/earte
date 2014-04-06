@@ -1,0 +1,8 @@
+/* ------------------------------- Geral ------------------------------- */.container {	font: 100 1em verdana,serif;	width: 80%;	margin: auto;}body {	text-align: justify;}
+
+hr {
+	height: 10px;
+	background-color: DarkCyan;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}

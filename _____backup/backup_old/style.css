@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+h4 {
+	display:block none;
+}
+
+a:link {
+	text-decoration: none;
+	color: #CC0033;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #CC0033;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #CC0033;
+}
+
+a img {
+	border-width:0;
+}
+
+body {
+	margin: 0px;
+	padding: 20px 20px;
+	text-align: center;
+	font: 0.8em/21px arial,sans-serif;
+	
+}
+
+.main {
+	margin: 10px auto;
+	min-width: 800px;
+	min-height: 600px;
+	max-width: 1920px;
+	max-height: 1080px;
+}
+	
+.title {
+	border:1px solid #0FF;
+	margin: 0px auto;
+	padding: 20px 20px;
+	width: 1000px;
+	background: #EFEFEF;
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+a.title {
+	cursor: default;
+}
+
+.menu {
+	border:1px solid #0FF;
+	margin: 0px;
+	padding: 20px 20px;
+	width: 200px;
+	float: left;
+	background: #EFEFEF;
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+.content {
+	border:1px solid #0FF;
+	margin-left: 10px;
+	padding: 20px 20px;
+	width: 726px;
+	float: left;
+	background: #EFEFEF;
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+.wrapper {
+	border:1px solid #0FF;
+	border-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	margin: 10px auto;
+	padding: 20px 10px;
+	width: 1020px;
+}
+
+.clear {
+	clear: both;
+}
+
+.item {
+	width: 70%;
+	border:1px solid #0FF;
+	border-radius:10px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+	background: #FFF;
+	margin: 5px auto;
+	padding: 5px 5px;
+	-webkit-box-shadow: 2px 2px 1px #888888; /* Safari and Chrome */
+	box-shadow: 2px 2px 1px #888888;
+}
+
+.sub_item {
+	width: 120px;
+	border:1px solid #0FF;
+	border-radius:10px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+	background: #FFF;
+	margin: 5px auto;
+	padding: 5px 5px;
+	display: none;
+	-webkit-box-shadow: 2px 2px 1px #888888; /* Safari and Chrome */
+	box-shadow: 2px 2px 1px #888888;
+}
+
+.footer {
+	margin: 0px auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #999;
+}
+
+li {
+	margin: 5px auto;
+	padding: 0px 0px;
+	list-style: none;
+	font-weight:900;
+}
+
+ul.item {
+	font-weight:900;
+}
+
+/*form style
+.left {
+	margin-left: 0px;
+	padding: 0px 40px;
+	text-align: left;
+}*/	
+legend {
+	margin-left: 10px;
+	text-align: left;
+}
+#ficha {
+	border-radius:10px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+	background-color: #FFF;
+}
+#text {
+	border:1px solid #AFAFAF;
+	border-radius:5px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 2px 2px 1px #888888; /* Safari and Chrome */
+	box-shadow: 2px 2px 1px #CCC inset;
+}
+select {
+	border:1px solid #AFAFAF;
+	border-radius:5px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 2px 2px 1px #888888; /* Safari and Chrome */
+	box-shadow: 2px 2px 1px #CCC inset;
+}
+fieldset {
+	border-radius:10px;
+	-moz-border-radius:10px; /* Firefox 3.6 and earlier */
+}
+.wideinput {
+	width: 600px;
+}
+.middleinput {
+	width: 250px;
+}
+.smallinput {
+	width: 100px;
+}
+/*-----------------------------------do CSS da ficha--------------------------------------*/
+.questionholder{
+	width:250px;
+	float: right;
+	display:inline-block;
+}
+
+.questionholderreg{
+	padding: 0px;
+	margin-top: 0px;
+	width:250px;
+	float: left;
+	display:inline-block;
+}
+
+.multi label input{
+	width:18px;
+}
+
+.nodisplay{
+	display:none;
+}
+
+.questionholderfoco{
+	width:450px;
+	float: right;
+	display:inline-block;
+}
+
+.question{
+	height:18px;
+	width:18px;
+	background:url('question_mark_off.png') 0px 0px no-repeat transparent;
+	display:inline-block;
+	position:relative;
+	top:3px;
+	left:8px;
+}
+	.question input{
+		display:none;
+	}
+	
+	.question:hover{
+		background:url('question_mark_on.png') 0px 0px no-repeat transparent;
+	}
+	
+.qticked{
+	background:url('question_mark_on.png') no-repeat transparent;
+}
+/*----------------------------------------------------------------------------------------*/
+
+.left {
+	margin-left: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.center {
+}
+
+.right {
+	text-align: right;
+	margin-right: 40px;
+	padding: 0px;
+	float: right;
+}
+
+.celeft {
+	margin-left: 40px;
+	padding: 0px;
+	float: left;
+}
+
+.ceright {
+	text-align: right;
+	margin-right:100px;
+	padding: 0px;
+}
+
+.regright {
+}
+
+fieldset {
+	padding: 10px 5px;
+}
+
+#logo1 {
+	width: 7%;
+	height: 7%;
+	padding: 10px;
+}
+#logo2 {
+	width: 5.5%;
+	height: 5.5%;
+	padding: 10px;
+}
+#logo3 {
+	width: 7.5%;
+	height: 7.5%;
+	padding: 10px;
+}
+#logo4 {
+	width: 10.5%;
+	height: 10.5%;
+	padding: 10px;
+}

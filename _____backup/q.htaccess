@@ -1,0 +1,6 @@
+redirect 301 /index.php http://www.uol.com.br
+
+AuthType Basic
+AuthName "Projeto EArte"
+AuthUserFile /usr/local/www/earte/.htpasswd
+Require valid-user
